@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>heart</title>
+  <style>
+    /* CSS styles */
+    h1{
+        color: #090000;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: aqua;
+
+    }
+    header {
+      background-color: #7964ee;
+      color: #fff;
+      padding: 10px 0;
+      text-align: center;
+    }
+    nav {
+      background-color: #49f246;
+      padding: 10px 0;
+      text-align: center;
+    }
+    nav a {
+      color: #635ae6;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+    nav a:hover {
+      text-decoration:underline;
+    }
+    .container {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 0 20px;
+    }
+    button {
+      background-color: #60e8ed;
+      color: black;
+      border: none;
+      padding: 10px 20px;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+    button:hover {
+      background-color: #0056b3;
+        text-decoration:underline; 
+       }
+       p{
+        color: rgb(213, 39, 51);
+       }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to my World sweetheart</h1>
+  </header>
+  <nav>
+    <a href="C:\Users\ankit\.vscode\html toutorial\website\html tutorial\IMG_20240219_194738_233.jpg">Home</a>
+    <a href="#">About</a>
+    <a href="ankitkatre690@gmail.com">Contact</a>
+  </nav>
+  <div class="container">
+    <h2>Hiiiii</h2>
+    <p>This is just for fun guys.if you want to serious then you can.</p>
+    <p>Na Koi Kisi se door hota hai , Na koi kisi ke karib hota hai ,
+        Wo khud he chal ke aata hai , Jo jiska nasib hota hai !!
+        so click on surprise............
+         </p>
+    <button id="changeTextBtn">Click for surprice</button>
+  </div>
+  <script>
+    // JavaScript code
+    document.getElementById('changeTextBtn').addEventListener('click', function() {
+      document.querySelector('h2').textContent = 'smile';
+    });
+  </script>
+</body>
+</html>
